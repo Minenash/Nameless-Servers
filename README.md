@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Nameless Servers
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+A very small fabric mod that allows you to not name a server when creating it. It also shows the address instead of nothing in the delete screen
