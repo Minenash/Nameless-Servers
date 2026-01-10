@@ -15,8 +15,7 @@ public class MultiplayerScreenMixin {
     @ModifyArg(method = "method_19914", index = 1, at = @At(value = "INVOKE", target = "Lnet/minecraft/text/Text;translatable(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/text/MutableText;"))
     private Object[] changeText(Object[] old) {
         if (((String)old[0]).isBlank()) {
-            String str = ((MultiplayerServerListWidget.ServerEntry) serverListWidget.getSelectedOrNull()).getServer().address;
-            return new Object[]{str};
+            return new Object[]{((MultiplayerServerListWidget.ServerEntry) serverListWidget.getSelectedOrNull()).getServer().address};
         }
         return old;
     }
